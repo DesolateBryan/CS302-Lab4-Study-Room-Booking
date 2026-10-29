@@ -1,0 +1,8 @@
+DEPENDENCY AUDIT - all imports in the two inner layers
+Total import statements: 6; violations: 0
+study_room_booking/entities/study_room_reservation.py:3 | from dataclasses import dataclass | stable Python standard library | inward / stable - OK
+study_room_booking/use_cases/book_study_room.py:3 | from study_room_booking.entities.study_room_reservation import StudyRoomReservation | inner - entities | inward / stable - OK
+study_room_booking/use_cases/book_study_room.py:4 | from study_room_booking.use_cases.boundaries import BookingRequest, BookingResponse, BookingGateway, BookingOutputBoundary | use cases | inward / stable - OK
+study_room_booking/use_cases/boundaries.py:3 | from dataclasses import dataclass | stable Python standard library | inward / stable - OK
+study_room_booking/use_cases/boundaries.py:4 | from typing import Protocol | stable Python standard library | inward / stable - OK
+study_room_booking/use_cases/boundaries.py:5 | from study_room_booking.entities.study_room_reservation import StudyRoomReservation | inner - entities | inward / stable - OK

@@ -1,0 +1,10 @@
+--- audit/evidence/book_study_room_BEFORE_FIX.py	2026-10-29 00:45:34.622942193 +0000
++++ study_room_booking/use_cases/book_study_room.py	2026-10-29 00:45:34.625158462 +0000
+@@ -2,7 +2,6 @@
+ # Interactor: one complete booking request, independent of any framework.
+ from study_room_booking.entities.study_room_reservation import StudyRoomReservation
+ from study_room_booking.use_cases.boundaries import BookingRequest, BookingResponse, BookingGateway, BookingOutputBoundary
+-from study_room_booking.frameworks_and_drivers.in_memory_booking_gateway import InMemoryBookingGateway  # INTENTIONAL AUDIT VIOLATION
+ 
+ 
+ class BookStudyRoomInteractor:

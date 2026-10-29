@@ -1,0 +1,4 @@
+[SUCCESS] Study room reserved.
+  Confirmation: SR-0001 | Room: LIB-201 | Date: 2026-10-29 | Time: 14:00-16:00
+[FAILED] That study room is already booked for those hours.
+  No reservation created.

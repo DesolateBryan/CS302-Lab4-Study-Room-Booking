@@ -1,0 +1,11 @@
+test_different_room_is_allowed (test_book_study_room.BookStudyRoomTests.test_different_room_is_allowed) ... ok
+test_invalid_duration (test_book_study_room.BookStudyRoomTests.test_invalid_duration) ... ok
+test_overlap_does_not_book_twice (test_book_study_room.BookStudyRoomTests.test_overlap_does_not_book_twice) ... ok
+test_successful_booking (test_book_study_room.BookStudyRoomTests.test_successful_booking) ... ok
+test_failure_view_model (test_booking_presenter.BookingPresenterTests.test_failure_view_model) ... ok
+test_success_view_model (test_booking_presenter.BookingPresenterTests.test_success_view_model) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
